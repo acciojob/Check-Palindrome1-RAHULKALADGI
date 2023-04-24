@@ -1,10 +1,10 @@
 // complete the given function
 
 function palindrome(str){
-	if(str.length==1) {
+		if(str.length==1) {
 		return true;
 	}
-	let ans = toLowerCase(str);
+	let ans = str.toLowerCase();
 	let s = "";
 	for(let i = 0;i<ans.length;i++) {
 		if(ans.charAt(i)!=' ') {
