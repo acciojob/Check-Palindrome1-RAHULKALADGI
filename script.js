@@ -7,8 +7,8 @@ function palindrome(str){
 	let ans = toLowerCase(str);
 	let s = "";
 	for(let i = 0;i<ans.length;i++) {
-		if(str.charAt(i)!=' ') {
-			s+= str.charAt(i);
+		if(ans.charAt(i)!=' ') {
+			s+= ans.charAt(i);
 		}
 	}
 	for(let i = 0;i<s.length/2;i++) {
