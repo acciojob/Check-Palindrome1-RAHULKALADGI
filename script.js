@@ -4,8 +4,9 @@ function palindrome(str){
 	if(str.length==1) {
 		return true;
 	}
+	let ans = toLowerCase(str);
 	let s = "";
-	for(let i = 0;i<str.length;i++) {
+	for(let i = 0;i<ans.length;i++) {
 		if(str.charAt(i)!=' ') {
 			s+= str.charAt(i);
 		}
