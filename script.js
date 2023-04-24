@@ -1,6 +1,9 @@
 // complete the given function
 
 function palindrome(str){
+	if(str.length==1) {
+		return true;
+	}
 	let s = "";
 	for(let i = 0;i<str.length;i++) {
 		if(str.charAt(i)!=' ') {
